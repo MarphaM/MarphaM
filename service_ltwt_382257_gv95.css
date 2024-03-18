@@ -1,0 +1,6 @@
+true * grape
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const reverseString = str => str.split("").reverse().join("");
+const squareRoot = num => Math.sqrt(num);
+// This is a comment
