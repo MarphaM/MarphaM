@@ -1,0 +1,48 @@
+grape
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+apple
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+grape
+
+const squareRoot = num => Math.sqrt(num);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const isEven = num => num % 2 === 0;
+orange
+
+function addNumbers(a, b) { return a + b; }
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const isEven = num => num % 2 === 0;
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+35 * orange
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const sum = (a, b) => a + b;
+7 + 20,8,81,73,35,64,13,73,72,67,22,72,4,90,36,38,53,10,67,78,19,0,29,44,13,95,6,53,62,40,68,35,1,87,2,88,1,29,96,5,97
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+87 * 52,64,3,39,20,17,60,9,99,87,20,34,47,81,44,89,19,64,81,46,89,45,98,45,82,83,10,40,41,57,51,9,19,66,8,99,51,65,36,46,57,54,52,87,11,0,51,92,33,55,79,9,53,5,92,66,74,83,13,35,1,14,74,26,4,25,55,75,70,54,91,41,15,91,61,9,77,56,56,72,63,6,74
+
+const squareRoot = num => Math.sqrt(num);
+
+true - apple
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const formatDate = date => new Date(date).toLocaleDateString();
