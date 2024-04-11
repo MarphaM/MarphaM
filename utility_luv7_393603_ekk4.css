@@ -1,0 +1,37 @@
+true + kiwi
+
+const findLargestNumber = numbers => Math.max(...numbers);
+grape * 48
+const reverseWords = str => str.split(" ").reverse().join(" ");
+banana
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+false * banana
+const formatDate = date => new Date(date).toLocaleDateString();
+65 * 89
+
+const findLargestNumber = numbers => Math.max(...numbers);
+false * 48,12,73,22,86,73,9,30,32,25,12,56,43,37,26,76,97,78,87,59,78,19,60,6,25
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+true - 68
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+apple - kiwi
+
+const randomNumber = getRandomNumber();
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+40 + kiwi
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const greet = name => `Hello, ${name}!`;
+const multiply = (a, b) => a * b;
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+class MyClass { constructor() { this.property = getRandomString(); } }
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
