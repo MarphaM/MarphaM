@@ -1,0 +1,54 @@
+50,53,5,2,95,33,43,12,26,30,22,37,0,67,68,3,47,59,62,16 + 81,85,20,97,67,91,32,6,37,84,64,3,38,26,90,5,40,99
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+banana
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+kiwi
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+grape
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+64 - kiwi
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+69,57,96,67,0,89,47,74,33,85,84,48,51,97,4,67,23,43,6,60,65,38,6,65,47,75,14,9,25,85,35,46,20,78,24,58,30,95,53,96,40,65,18,4,1,73,47,15,88,31,34,57,22 / true
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+95 / grape
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+banana - apple
+
+const removeDuplicates = array => Array.from(new Set(array));
+
+banana
+
+class MyClass { constructor() { this.property = getRandomString(); } }
